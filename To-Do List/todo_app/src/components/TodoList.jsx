@@ -21,7 +21,7 @@ const TodoList = () => {
   console.log('Filtered Todos: ', filteredTodos)
   return (
     <ul className="text-left">
-      <li className="my-2 text-sm italic">All Your Notes Here....</li>
+      <li className="my-2 text-sm italic text-white">All Your Notes Here....</li>
       {
         filteredTodos.map((todo,index) => (
           <TodoItem key={index} todo={todo} index={index}/>

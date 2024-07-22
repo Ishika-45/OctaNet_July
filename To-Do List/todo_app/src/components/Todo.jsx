@@ -27,8 +27,10 @@ const Todo = () => {
     }
 
     return (
-        <div className="max-w-4xl  sm:mt-8 p-4 bg-gray-100 rounded">
-            <h2 className="mt-3 mb-6 text-2xl font-bold text-center uppercase">PERSONAL TODO APP</h2>
+        <div className=" h-full w-full p-4 sm:mt-8 bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border border-gray-100
+">
+    {/* max-w-4xl  sm:mt-8 p-4 bg-gray-100 rounded" */}
+            <h2 className="mt-3 mb-6 text-3xl font-bold text-center uppercase text-white">PERSONAL TODO APP</h2>
 
             {/* input text and btn */}
             <div className="flex items-center mb-4">
